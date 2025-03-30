@@ -14,7 +14,7 @@ const AboutSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="slide-up">
             <h3 className="text-xl md:text-2xl font-semibold mb-6">
-              Hello, I'm <span className="text-primary">John Doe</span>
+              Hello, I'm <span className="text-primary">Todd Ward</span>
             </h3>
             <p className="text-muted-foreground mb-6 leading-relaxed">
               I'm a passionate Full-Stack Developer with over 6 years of experience
