@@ -3,7 +3,6 @@ import React, { useState, useEffect } from "react";
 import { cn } from "@/lib/utils";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { Link } from "react-router-dom";
 
 const navLinks = [
   { name: "About", href: "#about" },
@@ -52,12 +51,6 @@ const Navbar = () => {
               {link.name}
             </a>
           ))}
-          <Link 
-            to="/admin"
-            className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors"
-          >
-            Admin
-          </Link>
         </nav>
 
         {/* Mobile Navigation Button */}
@@ -85,13 +78,6 @@ const Navbar = () => {
                 {link.name}
               </a>
             ))}
-            <Link
-              to="/admin"
-              className="px-6 py-3 text-base font-medium hover:bg-muted/50 transition-colors"
-              onClick={() => setMobileMenuOpen(false)}
-            >
-              Admin
-            </Link>
           </nav>
         </div>
       )}
