@@ -5,9 +5,9 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const education = [
   {
-    degree: "Master of Science in Computer Science",
-    institution: "Stanford University",
-    date: "2013 - 2015",
+    degree: "Bachelor of Science in Business Administration, Major in MIS",
+    institution: "The University of North Carolina at Charlotte",
+    date: "1998",
     description: "Specialized in Artificial Intelligence and Web Technologies. Graduated with honors.",
     achievements: [
       "4.0 GPA",
@@ -29,7 +29,7 @@ const education = [
 ];
 
 const certifications = [
-  { name: "AWS Certified Solutions Architect", issuer: "Amazon Web Services", year: "2022" },
+  { name: "Certified Scrum Product Owner", issuer: "Scrum Alliance", year: "1/2025" },
   { name: "Google Professional Cloud Developer", issuer: "Google Cloud", year: "2021" },
   { name: "React Advanced Concepts", issuer: "Frontend Masters", year: "2020" },
   { name: "Certified Scrum Master", issuer: "Scrum Alliance", year: "2019" },
