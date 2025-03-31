@@ -11,10 +11,10 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0">
             <a href="#" className="text-primary text-xl font-bold">
-              John Doe
+              Todd Ward
             </a>
             <p className="text-muted-foreground mt-2">
-              Full-Stack Developer & Designer
+              Product Manager
             </p>
           </div>
           
@@ -37,7 +37,7 @@ const Footer = () => {
         <Separator className="my-8" />
         
         <div className="flex flex-col md:flex-row justify-between items-center text-sm text-muted-foreground">
-          <p>© {currentYear} John Doe. All rights reserved.</p>
+          <p>© {currentYear} Todd Ward. All rights reserved.</p>
           <div className="flex gap-8 mt-4 md:mt-0">
             <a href="#" className="hover:text-primary transition-colors">
               Privacy Policy
